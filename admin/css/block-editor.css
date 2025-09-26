@@ -1,0 +1,81 @@
+/* Listo Gutenberg Block Editor Styles */
+
+.listo-block-editor-preview {
+	border: 2px dashed #007cba;
+	border-radius: 8px;
+	padding: 24px;
+	text-align: center;
+	background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%);
+	position: relative;
+	transition: all 0.3s ease;
+}
+
+.listo-block-editor-preview:hover {
+	border-color: #005a87;
+	background: linear-gradient(135deg, #e9ecef 0%, #dee2e6 100%);
+}
+
+.listo-block-editor-preview::before {
+	content: "📍";
+	font-size: 32px;
+	display: block;
+	margin-bottom: 12px;
+}
+
+/* Inspector Panel Styles */
+.components-panel__body.is-opened .components-panel__body-title {
+	border-bottom: 1px solid #e0e0e0;
+	margin-bottom: 16px;
+	padding-bottom: 8px;
+}
+
+/* Block Icon in Block Inserter */
+.wp-block-listo-store-locator {
+	background-color: #007cba;
+	color: white;
+	border-radius: 4px;
+}
+
+/* Custom Control Styles */
+.listo-block-controls .components-base-control {
+	margin-bottom: 16px;
+}
+
+.listo-block-controls .components-base-control__label {
+	font-weight: 600;
+	color: #1e1e1e;
+	margin-bottom: 6px;
+}
+
+/* Preview Text Styles */
+.listo-block-editor-preview h3 {
+	color: #007cba;
+	font-size: 18px;
+	font-weight: 600;
+	margin-bottom: 8px;
+}
+
+.listo-block-editor-preview p {
+	color: #666;
+	font-size: 14px;
+	line-height: 1.4;
+	margin: 4px 0;
+}
+
+.listo-block-editor-preview small {
+	color: #999;
+	font-size: 12px;
+	font-style: italic;
+}
+
+/* Responsive adjustments */
+@media (max-width: 782px) {
+	.listo-block-editor-preview {
+		padding: 16px;
+	}
+
+	.listo-block-editor-preview::before {
+		font-size: 24px;
+		margin-bottom: 8px;
+	}
+}

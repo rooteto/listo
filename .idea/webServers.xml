@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="91c1219d-5257-46f6-99a3-ebdaec3b94cf" name="listo-store-locator" url="http://eva.web.tr">
+        <fileTransfer rootFolder="/domains/eva.web.tr/public_html/wp/wp-content/plugins/listo-store-locator" host="eva.web.tr" port="21">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>
